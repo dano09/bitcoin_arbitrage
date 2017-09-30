@@ -17,9 +17,9 @@ def print_full(x):
     pd.reset_option('display.max_rows')
 
 # Read CSV into Dataframes
-bitstamp_df = pd.read_csv(filepath_or_buffer='/home/justin/Desktop/FALL_2017/FE550/fe550_lab1/bitstamp/xaj.csv',
+bitstamp_df = pd.read_csv(filepath_or_buffer='/home/justin/Desktop/FALL_2017/FE550/fe550_lab1/bitstamp/xaj.csv.csv',
                           names=['timestamp', 'price', 'amount'])
-kraken_df = pd.read_csv(filepath_or_buffer='/home/justin/Desktop/FALL_2017/FE550/fe550_lab1/kraken/xab.csv',
+kraken_df = pd.read_csv(filepath_or_buffer='/home/justin/Desktop/FALL_2017/FE550/fe550_lab1/kraken/xab.csv.csv.csv',
                         names=['timestamp', 'price', 'amount'])
 coinbase_df = pd.read_csv(filepath_or_buffer='/home/justin/Desktop/FALL_2017/FE550/fe550_lab1/coinbase/xao.csv',
                           names=['timestamp', 'price', 'amount'])
