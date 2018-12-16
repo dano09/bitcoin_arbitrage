@@ -1,6 +1,9 @@
 # Bitcoin Arbitrage
-- To view most of the visualizations, please use Firefox with nb-viewer option selected.
+Some of the visualizations, especially for (A5) may encounter issues with traditional  HTML markup.
+This is due to Plotlys interactivity. If any issues viewing the visualizations, please use external view (nbviewer)
+Firefox also appears to be most compatible with NBViewer.
 
+[[https://github.com/dano09/bitcoin_arbitrage/blob/master/nb_viewer_pic.PNG|alt=octocat]]
 Several notebooks exploring arbitrage opportunities and analysis on Bitcoin
 
 ## A1_OrderBookViz.ipynb - Visualizing Arbitrage between different exchanges
